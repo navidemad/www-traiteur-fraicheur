@@ -77,6 +77,7 @@ a {
   #menu {
     flex-direction: row;
   }
+
 }
 @media only screen and (max-width: 1084px) {
   #menu {
@@ -95,12 +96,33 @@ a {
     flex: 1 0 0;
   }
 }
+@media only screen and (max-width: 1085px) {
+  #content.presentation .menu-special {
+    float: none !important;
+    padding-top: 0px !important;
+    height: inherit !important;
+    width: inherit !important;
+  }
+  #content.presentation .text-menu {
+    padding-top: 20px !important;
+    width: inherit !important;
+    float: none !important;
+    padding-left: 0px !important;
+  }
+}
+
+
 #header #left {
   margin: 3px;
   font-size: 45px;
   font-style: italic;
   font-family: 'distant_strokeregular';
 }
+
+#header #left img {
+  width: 100%;
+}
+
 #header #middle {
   margin: 3px;
 }
@@ -187,9 +209,42 @@ a {
 #content p strong {
   font-weight: bold;
 }
+
+#content.presentation {
+  width: 100%;
+  overflow: hidden;
+}
+
 #content.presentation p {
   margin-bottom: 25px;
 }
+
+#content.presentation .menu-special {
+  padding-top: 20px;
+  float: left;
+  height: 400px;
+  width: 20%;
+}
+
+#content.presentation .menu-special img {
+  width: 100%;
+}
+
+#content.presentation .text-menu {
+  width: 80%;
+  float: right;
+  padding-left: 45px;
+}
+
+.logo-fb {
+  float: right;
+  margin-right: 15px;
+}
+
+.logo-fb img {
+  width: 100%;
+}
+
 #content.particuliers p {
   text-align: center;
 }
@@ -250,6 +305,8 @@ a {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+  text-align: center;
+  padding-left: 85px;
 }
 #content.contact #contact_right img {
   float: right;
