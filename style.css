@@ -223,7 +223,6 @@ a {
   padding-top: 20px;
   float: left;
   height: 400px;
-  width: 20%;
 }
 
 #content.presentation .menu-special img {
@@ -303,9 +302,48 @@ a {
   }
 }
 
-#content.Desserts p {
+#content.desserts {
   text-align: center;
 }
+
+#content.desserts .sub-paragraph {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#content.desserts .paragraph {
+  text-align: left;
+}
+
+#content.desserts .menu-dessert {
+  display: inline-block;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+
+#content.desserts .menu-dessert img {
+  width: 240px;
+}
+
+#content.desserts .menu-dessert a.c2a {
+  padding: 20px 3px 10px;
+  border-radius: 5px;
+  font-size: 54px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -160px;
+  opacity: .85;
+  width: 320px;
+  font-style: italic;
+  font-family: 'distant_strokemedium';
+  background: #93bba1;
+  text-align: center;
+}
+
 @media only screen and (max-width: 1084px) {
   #content.contact {
     display: block;
