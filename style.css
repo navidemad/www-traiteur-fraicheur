@@ -245,9 +245,64 @@ a {
   width: 100%;
 }
 
-#content.Prestations p {
+#content.prestations img {
+  display: block;
+  width: 100%;
+  margin: 20px;
+}
+#content.prestations a.c2a {
+  padding: 20px 3px 10px;
+  border-radius: 5px;
+  font-size: 48px;
+  display: block;
+  margin: 20px;
+  font-style: italic;
+  font-family: 'distant_strokemedium';
+  background: #93bba1;
   text-align: center;
 }
+@media only screen and (max-width: 1084px) {
+  #content.prestations {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1085px) {
+  #content.prestations {
+    display: flex;
+    flex-direction: row;
+  }
+}
+#content.prestations .professionnelles {
+  overflow: hidden;
+}
+@media only screen and (max-width: 1084px) {
+  #content.prestations .professionnelles {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1085px) {
+  #content.prestations .professionnelles {
+    flex: 1 0 0;
+  }
+}
+#content.prestations .evenementielles {
+  text-align: center;
+}
+@media only screen and (max-width: 1084px) {
+  #content.prestations .evenementielles {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1085px) {
+  #content.prestations .evenementielles {
+    flex: 1 0 0;
+  }
+}
+
 #content.Desserts p {
   text-align: center;
 }
