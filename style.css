@@ -114,13 +114,13 @@ a {
 
 #header #left {
   margin: 3px;
-  font-size: 45px;
-  font-style: italic;
-  font-family: 'distant_strokeregular';
+  text-align: left;
 }
 
 #header #left img {
-  width: 100%;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
 }
 
 #header #middle {
