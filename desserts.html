@@ -8,6 +8,7 @@
     <title>Desserts - Traiteur Fraicheur</title>
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -25,44 +26,53 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-</head>
-<body>
-  <div id="wrapper">
-    <div id="header">
-      <div id="left">
-        <img src="chef.jpg" alt="Traiteur Fraicheur" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 34 ans ce fils d'agriculteur a côtoyé les plus grands chefs de ce monde. Il revendique son amour 
-        pour les produits frais des producteurs locaux et valorise les légumes anciens dans ses différents 
-        plats proposés.
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="left">
+          <a href="chef_details.jpg" data-lightbox="image-histoire" data-title="Histoire de Traiteur Fraicheur">
+            <img src="chef.jpg" alt="Traiteur Fraicheur" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 34 ans ce fils d'agriculteur a côtoyé les plus grands chefs de ce monde.
+            Il revendique son amour pour les produits frais des producteurs locaux et valorise les légumes anciens dans ses différents plats proposés...
+          </a>
+        </div>
+        <div id="middle"><a href="#"><img src="logo.gif" alt="Traiteur Fraicheur" /></a></div>
+        <div id="right"><a href="#">Livre d'or</a></div>
       </div>
-      <div id="middle"><a href="#"><img src="logo.gif" alt="Traiteur Fraicheur" /></a></div>
-      <div id="right"><a href="#">Livre d'or</a></div>
+      <div id="pre_menu"></div>
+      <div id="menu">
+        <a href="index.html">Présentation</a>
+        <a href="prestations.html">Prestations</a>
+        <a href="desserts.html" class="current">Desserts</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div id="post_menu"></div>
+      <div id="content" class="desserts">
+        <div class="paragraph">
+          <p>Terminez votre repas sur une note sucrée et original. Ces délices feront le bonheur de vos papilles.<br>
+            Nos desserts sont toujours inspirés de l'air du temps...réalisés par nos chefs dans un tourbillon de couleurs des quatre saisons
+            avec l'inspiration des fruits naturels.<br>
+            Nos desserts peuvent être servis à l’assiette ou présentés sur un buffet de dessert selon vos envies.
+          </p>
+        </div>
+        <div class="menu-dessert">
+          <a href="menu_dessert_details.jpg" data-lightbox="image-desserts" data-title="Desserts de Traiteur Fraicheur">
+            <img src="menu_dessert.jpg" alt="Menu des desserts" />
+            <div class="c2a">Nos Desserts</div>
+          </a>
+        </div>
+        <div class="sub-paragraph">
+          <p>Nous ne pratiquons pas de droit de bouchon</p>
+        </div>
+      </div>
+      <div class="logo-fb">
+        <a href="https://www.facebook.com/TraiteurFraicheur/">
+          <img src="logo_fb.png" alt="Acceder à facebook" />
+        </a>
+      </div>
     </div>
-    <div id="pre_menu"></div>
-    <div id="menu">
-      <a href="index.html">Présentation</a>
-      <a href="prestations.html">Prestations</a>
-      <a href="desserts.html" class="current">Desserts</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div id="post_menu"></div>
-    <div id="content" class="desserts">
-      <div class="paragraph">
-        <p>Terminez votre repas sur une note sucrée et original. Ces délices feront le bonheur de vos papilles.<br>
-          Nos desserts sont toujours inspirés de l'air du temps...réalisés par nos chefs dans un tourbillon de couleurs des quatre saisons
-          avec l'inspiration des fruits naturels.<br>
-          Nos desserts peuvent être servis à l’assiette ou présentés sur un buffet de dessert selon vos envies.
-        </p>
-      </div>
-      <div class="menu-dessert">
-        <img src="menu_dessert.jpg" alt="Menu Dessert" />
-        <a href="#" class="c2a">Nos Desserts</a>
-      </div>
-      <div class="sub-paragraph">
-        <p>Nous ne pratiquons pas de droit de bouchon</p>
-      </div>
-    </div>
-    <div class="logo-fb"><img src="logo_fb.png" alt="Acceder à facebook" /></div>
-  </div>
-</body>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="lightbox.js"></script>
+  </body>
 </html>
