@@ -246,6 +246,7 @@ a {
 }
 
 .logo-fb {
+  margin-top: 20px;
   float: right;
   margin-right: 15px;
 }
@@ -267,7 +268,7 @@ a {
   margin: 0 20px 0;
   font-style: italic;
   font-family: 'distant_strokemedium';
-  background: #93bba1;
+  border: 1px solid #93bba1;
   text-align: center;
 }
 @media only screen and (max-width: 1084px) {
@@ -336,7 +337,6 @@ a {
   display: block;
   text-align: center;
   margin-top: 40px;
-  position: relative;
 }
 
 #content.desserts .menu-dessert img {
@@ -348,17 +348,12 @@ a {
   border-radius: 5px;
   font-size: 54px;
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -45px;
-  margin-left: -160px;
-  opacity: .85;
   width: 320px;
   font-style: italic;
   font-family: 'distant_strokemedium';
-  background: #93bba1;
+  border: 1px solid #93bba1;
   text-align: center;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1084px) {
