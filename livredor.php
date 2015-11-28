@@ -38,7 +38,7 @@
           </a>
         </div>
         <div id="middle"><a href="index.html"><img src="./logo.gif" alt="Traiteur Fraicheur" /></a></div>
-        <div id="right"><a href="./livredor.php">Livre d'or</a></div>
+        <div id="right"><a href="livredor.php">Livre d'or</a></div>
       </div>
       <div id="pre_menu"></div>
       <div id="menu">
@@ -46,34 +46,6 @@
         <a href="prestations.html">Prestations</a>
         <a href="desserts.html">Desserts</a>
         <a href="contact.html">Contact</a>
-      </div>
-      <div id="post_menu"></div>
-      <div id="content" class="presentation">
-        <div class="menu-special">
-          <a href="./menu_fete_details.png" data-lightbox="image-fete" data-title="Menu Noël"><img src="./menu_fete.png" alt="menu_fete" /></a>
-        </div>
-        <div class="text-menu">
-          <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vous souhaitez concrétiser avec vos clients ou partager un moment avec vos collègues&nbsp;?<br>
-            Vous souhaitez sacraliser une évènement familiale autour d'un repas d'exception en compagnie de vos proches&nbsp;?<br>
-            Pour célébrer vos grandes occasions, offrez à vos convives un repas digne de ce moment en contactant Traiteur-Fraicheur.<br>
-            Nous sommes situés à Pithiviers mais nous pouvons vous apporter notre savoir sur votre lieu de manifestation...
-          </p>
-          <p><strong>Buffets</strong></p>
-          <p>
-            Froid ou chaud, le buffet se présente selon les traditions "entrée, plat, fromage et dessert".<br>
-            Avec plusieurs choix de plats et des saveurs pour toutes les papilles.
-          </p>
-          <p><strong>Cocktails</strong></p>
-          <p>
-            Avec de nombreux types de petites bouchées, votre cocktail assure la réussite de votre événement. Vos convives pourront au grès du moment déguster notre charte de couleur gastronomique. .........
-          </p>
-          <p><strong>Menus</strong></p>
-          <p>
-            Nos menus sont concoctés avec des produits frais et locaux. Notre chef, met un point d'honneur à faire découvrir les différents produits du terroir
-            de la recette traditionnelle à moderne tout en passant par une gamme de prix pour tous.
-          </p>
-        </div>
       </div>
       <div class="logo-fb">
         <a href="https://www.facebook.com/TraiteurFraicheur/">
